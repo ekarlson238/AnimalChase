@@ -1,7 +1,7 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!64 &5924560469459338985
-MeshCollider:
+--- !u!65 &6972131833155871521
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10,10 +10,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: 16cb45723aa6f864988029b4e3ccf67d, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.9164152, y: 5.090567, z: 6.145455}
+  m_Center: {x: 0.01686923, y: 2.5452836, z: 0.12060517}
 --- !u!64 &191737070686248158
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -39,7 +38,7 @@ GameObject:
   - component: {fileID: 3726255251111274615}
   - component: {fileID: 5386736970118825904}
   - component: {fileID: 8347902969905562585}
-  - component: {fileID: 7125965262555369549}
+  - component: {fileID: 3479332551283143994}
   m_Layer: 0
   m_Name: House
   m_TagString: Untagged
@@ -109,8 +108,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!64 &7125965262555369549
-MeshCollider:
+--- !u!65 &3479332551283143994
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -119,10 +118,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 4300000, guid: cb8485310d2cb3d41844133b09727bf5, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 3.4306679, y: 2.8090723, z: 5.1182175}
+  m_Center: {x: 0.0000005364418, y: 1.4045361, z: 0.0000019073486}
 --- !u!1001 &1475390242364053808
 PrefabInstance:
   m_ObjectHideFlags: 0
