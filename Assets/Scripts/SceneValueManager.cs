@@ -5,6 +5,7 @@ using UnityEngine;
 public class SceneValueManager : MonoBehaviour
 {
     public static bool keyPickedUp = false;
+    public static bool keyInInventory = false;
     public static bool keyUsedDoorOpen = false;
 
     public static bool item1PickedUp = false;
