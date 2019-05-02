@@ -7,12 +7,14 @@ public class InventoryManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        SetInventory();
     }
-
-    // Update is called once per frame
-    void Update()
+    
+    /// <summary>
+    /// Makes sure the players inventory doesnt reset when moving between scenes
+    /// </summary>
+    private void SetInventory()
     {
-        
+        //DO THIS LATER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     }
 }
