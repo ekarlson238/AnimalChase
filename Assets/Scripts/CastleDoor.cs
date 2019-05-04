@@ -6,6 +6,8 @@ using UnityEngine;
 public class CastleDoor : InteractiveObject
 {
     private Animator animator;
+
+    private bool isOpen = false;
     
     /// <summary>
     /// Using a constructor to initialize display text
@@ -15,8 +17,21 @@ public class CastleDoor : InteractiveObject
         displayText = nameof(CastleDoor);
     }
 
-    private void Awake()
+    protected override void Awake()
     {
+        base.Awake();
         animator = GetComponent<Animator>();
+    }
+
+    public override void interactWith()
+    {
+        if (!isOpen)
+        {
+            base.interactWith();
+            animator.SetBool("shouldOpen", true);
+            displayText = string.Empty;
+            isOpen = true;
+        }
+        
     }
 }

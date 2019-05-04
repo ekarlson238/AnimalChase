@@ -698,7 +698,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-14068
+  m_Name: pb_Mesh23048
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -3256,7 +3256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4ae9ffdb5505fa45b1d2c6d6765ff0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayText: Interactive Object
+  displayText: Open Castle Door
 --- !u!82 &2059798192
 AudioSource:
   m_ObjectHideFlags: 0
