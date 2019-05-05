@@ -8,14 +8,24 @@ public class TitleMenu : MonoBehaviour
     [SerializeField]
     private string gameSceneName;
 
+    [SerializeField]
+    private Animator fadePanelAnim;
+
     public void LoadGameScene()
     {
-        SceneManager.LoadScene(gameSceneName);
+        StartCoroutine(FadeOut());
     }
 
     public void ExitGame()
     {
         Debug.Log("Quit!");
         Application.Quit();
+    }
+
+    IEnumerator FadeOut()
+    { 
+        fadePanelAnim.SetBool("leavingScene", true);
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(gameSceneName);
     }
 }
