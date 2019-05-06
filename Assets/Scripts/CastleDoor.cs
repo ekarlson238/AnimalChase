@@ -5,9 +5,9 @@ using UnityEngine;
 [RequireComponent (typeof(Animator))]
 public class CastleDoor : InteractiveObject
 {
-    [Tooltip("Check this box to lock door")]
+    [Tooltip("Assigning a key here will lock the door, door can only be opened if player has a key")]
     [SerializeField]
-    private bool isLocked;
+    private InventoryObject key;
 
     [Tooltip("What text the door diplays when locked")]
     [SerializeField]
@@ -20,6 +20,9 @@ public class CastleDoor : InteractiveObject
     [Tooltip("Plays this when the door is opened")]
     [SerializeField]
     private AudioClip openAudioClip;
+
+    private bool isLocked;
+    private bool hasKey => PlayerInventory.InventoryObjects.Contains(key);
 
     public override string DisplayText => isLocked ? lockedDisplayText : base.DisplayText;
 
@@ -38,24 +41,33 @@ public class CastleDoor : InteractiveObject
     {
         base.Awake();
         animator = GetComponent<Animator>();
+        InitializeIsLocked();
     }
 
-    public override void interactWith()
+    private void InitializeIsLocked()
+    {
+        if (key != null)
+        {
+            isLocked = true;
+        }
+    }
+
+    public override void InteractWith()
     {
         if (!isOpen)
         {
-            if (!isLocked)
+            if (isLocked && !hasKey)
+            {
+                audioSource.clip = lockedAudioClip;
+            }
+            else
             {
                 audioSource.clip = openAudioClip;
                 animator.SetBool("shouldOpen", true);
                 displayText = string.Empty;
                 isOpen = true;
             }
-            else //if door is locked...
-            {
-                audioSource.clip = lockedAudioClip;
-            }
-            base.interactWith();
+            base.InteractWith();
         }
         
     }

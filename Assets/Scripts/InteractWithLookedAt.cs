@@ -15,7 +15,7 @@ public class InteractWithLookedAt : MonoBehaviour
         if (Input.GetButtonDown("Fire1") && lookedAtInteractive != null)
         {
             Debug.Log("Pressed Fire");
-            lookedAtInteractive.interactWith();
+            lookedAtInteractive.InteractWith();
         }
     }
 

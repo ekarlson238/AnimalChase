@@ -7,6 +7,7 @@ public class InteractiveObject : MonoBehaviour, IInteractive
 {
     protected AudioSource audioSource;
 
+    [Tooltip("Test that will display in the UI in the world")]
     [SerializeField]
     protected string displayText = "Interactive Object";
 
@@ -17,7 +18,7 @@ public class InteractiveObject : MonoBehaviour, IInteractive
         audioSource = GetComponent<AudioSource>();
     }
 
-    public virtual void interactWith()
+    public virtual void InteractWith()
     {
         try
         {
