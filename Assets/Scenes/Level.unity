@@ -27063,7 +27063,7 @@ PrefabInstance:
     - target: {fileID: 8266332741154387615, guid: b2ea82b54dee570458d8ec67c6c0cf4f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000011721465
+      value: 0.00001185274
       objectReference: {fileID: 0}
     - target: {fileID: 8266332741159279169, guid: b2ea82b54dee570458d8ec67c6c0cf4f,
         type: 3}
@@ -27183,7 +27183,7 @@ PrefabInstance:
     - target: {fileID: 8266332740546221624, guid: b2ea82b54dee570458d8ec67c6c0cf4f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000028176228
+      value: -0.000012620082
       objectReference: {fileID: 0}
     - target: {fileID: 8266332741621336624, guid: b2ea82b54dee570458d8ec67c6c0cf4f,
         type: 3}
@@ -33427,6 +33427,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayText: Interactive Object
   item: {fileID: 6985682422421752728}
+  itemName: Statue
 --- !u!82 &75579148070384184
 AudioSource:
   m_ObjectHideFlags: 0
@@ -33612,6 +33613,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayText: Interactive Object
   item: {fileID: 5332900916250553694}
+  itemName: Campfire
 --- !u!82 &157156596232836865
 AudioSource:
   m_ObjectHideFlags: 0
@@ -33802,6 +33804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayText: Interactive Object
   item: {fileID: 7273895995310613069}
+  itemName: Well
 --- !u!82 &887777369577360457
 AudioSource:
   m_ObjectHideFlags: 0
@@ -39183,6 +39186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayText: Interactive Object
   item: {fileID: 1275424640906813070}
+  itemName: Cart
 --- !u!82 &4390664460473813586
 AudioSource:
   m_ObjectHideFlags: 0

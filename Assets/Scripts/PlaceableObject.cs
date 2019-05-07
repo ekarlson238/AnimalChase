@@ -7,6 +7,9 @@ public class PlaceableObject : InteractiveObject
     [SerializeField]
     private GameObject item;
 
+    [SerializeField]
+    private string itemName;
+
     private bool hasItem;
 
     private void Start()
@@ -27,7 +30,7 @@ public class PlaceableObject : InteractiveObject
         {
             if (hasItem)
             {
-                return "Place " + item.name;
+                return "Place " + itemName;
             }
             else
             {
