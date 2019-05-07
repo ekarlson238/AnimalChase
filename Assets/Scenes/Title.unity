@@ -296,7 +296,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: The Game's Title
+  m_text: The Polka Place
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -305,8 +305,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4278255615
+  m_fontColor: {r: 1, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -324,10 +324,10 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 72
-  m_fontSizeBase: 36
+  m_fontSize: 106.1
+  m_fontSizeBase: 106.1
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -365,7 +365,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 210817387}
-    characterCount: 16
+    characterCount: 15
     spriteCount: 0
     spaceCount: 2
     wordCount: 3
@@ -465,8 +465,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278255615
+  m_fontColor: {r: 1, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -960,7 +960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.066037714, g: 0.023985395, b: 0.023985395, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.27450982}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1156,8 +1156,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278255615
+  m_fontColor: {r: 1, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1262,6 +1262,67 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle System
       objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: UVModule.sprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: UVModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: UVModule.mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: UVModule.sprites.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0f730760c91942d49b8f97434adf9c8d,
+        type: 3}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: UVModule.uvChannelMask
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.g
+      value: 0.5471423
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.b
+      value: 0.7741265
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: ColorModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 626449165928094938, guid: 9eedccd3162e07b4882dee6bed36656c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1331,67 +1392,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_MotionVectors
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: UVModule.sprites.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: UVModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: UVModule.mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: UVModule.sprites.Array.data[0].sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 0f730760c91942d49b8f97434adf9c8d,
-        type: 3}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: UVModule.uvChannelMask
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: ColorModule.gradient.maxGradient.key0.g
-      value: 0.5471423
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: ColorModule.gradient.maxGradient.key0.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: ColorModule.gradient.maxGradient.key1.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: ColorModule.gradient.maxGradient.key1.b
-      value: 0.7741265
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: ColorModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9eedccd3162e07b4882dee6bed36656c, type: 3}
@@ -1969,6 +1969,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle System (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 626449165928094938, guid: 9eedccd3162e07b4882dee6bed36656c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2029,16 +2039,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 893e7b2719ae6464b891e86d0df7c7de, type: 2}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 6
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9eedccd3162e07b4882dee6bed36656c, type: 3}
 --- !u!1 &1647751164
@@ -2267,8 +2267,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278255615
+  m_fontColor: {r: 1, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2630,6 +2630,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BlackFadePanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086419407842583683, guid: c955b32bb705baa4a927becb15e41b39,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9086419407842583680, guid: c955b32bb705baa4a927becb15e41b39,
         type: 3}
