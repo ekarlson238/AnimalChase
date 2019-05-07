@@ -9,6 +9,10 @@ public class CastleDoor : InteractiveObject
     [SerializeField]
     private InventoryObject key;
 
+    [Tooltip("If checked using the key in the door will get rid of the key")]
+    [SerializeField]
+    private bool consumesKey;
+
     [Tooltip("What text the door diplays when locked")]
     [SerializeField]
     private string lockedDisplayText = "Locked";
@@ -24,7 +28,24 @@ public class CastleDoor : InteractiveObject
     private bool isLocked;
     private bool hasKey => PlayerInventory.InventoryObjects.Contains(key);
 
-    public override string DisplayText => isLocked ? lockedDisplayText : base.DisplayText;
+    public override string DisplayText
+    {
+        get
+        {
+            string toReturn;
+
+            if (isLocked)
+            {
+                toReturn = hasKey ? "Use Key" : lockedDisplayText;
+            }
+            else
+            {
+                toReturn = base.DisplayText;
+            }
+
+            return toReturn;
+        }
+    }
 
     private Animator animator;
     private bool isOpen = false;
@@ -66,9 +87,19 @@ public class CastleDoor : InteractiveObject
                 animator.SetBool("shouldOpen", true);
                 displayText = string.Empty;
                 isOpen = true;
+                UnlockDoor();
             }
             base.InteractWith();
         }
         
+    }
+
+    private void UnlockDoor()
+    {
+        isLocked = false;
+        if (key != null && consumesKey)
+        {
+            PlayerInventory.InventoryObjects.Remove(key);
+        }
     }
 }

@@ -8,6 +8,15 @@ public class InventoryObject : InteractiveObject
     [SerializeField]
     private string objectName = nameof(InventoryObject);
 
+    [Tooltip("The icon that will display in the inventory")]
+    [SerializeField]
+    private Sprite icon;
+
+    [Tooltip("The text that will display in the inventory")]
+    [TextArea(3,8)]
+    [SerializeField]
+    private string discription;
+
     private new Renderer renderer;
     private new Collider collider;
 
