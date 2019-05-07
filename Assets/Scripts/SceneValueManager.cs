@@ -10,33 +10,24 @@ public class SceneValueManager : MonoBehaviour
     /// Example: The player picks up an item off the ground in a scene; after leaving and returning to the scene the item doesnt reappear
     /// </summary>
 
+    public static bool playerEnteredPortal = false;
+
     #region key bools
     public static bool keyPickedUp = false;
-    public static bool keyInInventory = false;
     public static bool keyUsedDoorOpen = false;
     #endregion
 
-    #region item 1 bools
+    #region item bools
     public static bool item1PickedUp = false;
-    public static bool item1InInventory = false;
     public static bool item1Placed = false;
-    #endregion
-
-    #region item 2 bools
+    
     public static bool item2PickedUp = false;
-    public static bool item2InInventory = false;
     public static bool item2Placed = false;
-    #endregion
-
-    #region item 3 bools
+    
     public static bool item3PickedUp = false;
-    public static bool item3InInventory = false;
     public static bool item3Placed = false;
-    #endregion
-
-    #region item 4 bools
+    
     public static bool item4PickedUp = false;
-    public static bool item4InInventory = false;
     public static bool item4Placed = false;
     #endregion
 

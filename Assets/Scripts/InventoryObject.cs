@@ -52,6 +52,39 @@ public class InventoryObject : InteractiveObject
         InventoryMenu.Instance.AddItemToMenu(this);
         renderer.enabled = false;
         collider.enabled = false;
+        SceneItemTracking();
+    }
+
+    /// <summary>
+    /// Keeps track of what the player has picked up and records it in the scene value manager
+    /// </summary>
+    private void SceneItemTracking()
+    {
+        #region Notes
+        if (this.objectName == "Note 1")
+            SceneValueManager.note1PickedUp = true;
+        if (this.objectName == "Note 2")
+            SceneValueManager.note2PickedUp = true;
+        if (this.objectName == "Note 3")
+            SceneValueManager.note3PickedUp = true;
+        if (this.objectName == "Note 4")
+            SceneValueManager.note4PickedUp = true;
+        #endregion
+
+        #region items
+        if (this.objectName == "Statue")
+            SceneValueManager.item1PickedUp = true;
+        if (this.objectName == "Well")
+            SceneValueManager.item2PickedUp = true;
+        if (this.objectName == "Cart")
+            SceneValueManager.item3PickedUp = true;
+        if (this.objectName == "Campfire")
+            SceneValueManager.item4PickedUp = true;
+        #endregion
+
+        if (this.objectName == "Key")
+            SceneValueManager.keyPickedUp = true;
+
     }
 
 }
