@@ -13,6 +13,14 @@ public class InventoryMenu : MonoBehaviour
     [SerializeField]
     private Transform inventoryListContentArea;
 
+    [Tooltip("Place in the UI for diplaying the name of the item")]
+    [SerializeField]
+    private Text itemLabelText;
+
+    [Tooltip("Place in the UI for diplaying the description of the item")]
+    [SerializeField]
+    private Text itemDescriptionAreaText;
+
     private static InventoryMenu instance;
     private CanvasGroup canvasGroup;
     private RigidbodyFirstPersonController rigidbodyFirstPersonController;
@@ -65,6 +73,26 @@ public class InventoryMenu : MonoBehaviour
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
         audioSource.Play();
+    }
+
+    /// <summary>
+    /// event handler for InventoryMenuItemSelected 
+    /// </summary>
+    /// <param name="inventoryObjectThatWasSelected"></param>
+    private void OnInventoryItemSelected(InventoryObject inventoryObjectThatWasSelected)
+    {
+        itemLabelText.text = inventoryObjectThatWasSelected.ObjectName;
+        itemDescriptionAreaText.text = inventoryObjectThatWasSelected.Description;
+    }
+
+    private void OnEnable()
+    {
+        InventoryMenuItemToggle.InventoryMenuItemSelected += OnInventoryItemSelected;
+    }
+
+    private void OnDisable()
+    {
+        InventoryMenuItemToggle.InventoryMenuItemSelected -= OnInventoryItemSelected;
     }
 
     private void Update()

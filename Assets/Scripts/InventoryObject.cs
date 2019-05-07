@@ -15,11 +15,11 @@ public class InventoryObject : InteractiveObject
     [Tooltip("The text that will display in the inventory")]
     [TextArea(3,8)]
     [SerializeField]
-    private string discription;
+    private string description;
 
     public string ObjectName => objectName;
     public Sprite Icon => icon;
-    public string Description => Description;
+    public string Description => description;
 
     private new Renderer renderer;
     private new Collider collider;
