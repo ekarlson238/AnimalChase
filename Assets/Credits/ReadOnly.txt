@@ -1,37 +1,33 @@
-Design: Evan Karlson     
--------------------------------------------------------------------------------
+Design: Evan Karlson
+
 Programming: Evan Karlson
--------------------------------------------------------------------------------
-Scroll Icon:                                                                                
-https://pixabay.com/vectors/scroll-parchment-paper-note-bill-35683/                                                                                                                     
--------------------------------------------------------------------------------
-Key Icon:                                                                                   
-https://pixabay.com/vectors/key-icon-simple-symbol-brass-2674073/                                                                                                                       
--------------------------------------------------------------------------------
-Item Icons:                                                                                 
-https://svgsilh.com/image/3190959.html                                                      
-https://svgsilh.com/image/2515648.html                                                      
-https://svgsilh.com/image/31942.html                                                        
-https://svgsilh.com/image/1200940.html                                                                                                                                                  
--------------------------------------------------------------------------------
-Skyboxes:                                                                                   
-https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-add-on-136594     														   
-https://assetstore.unity.com/packages/2d/textures-materials/sky/starfield-skybox-92717                                                                                                  
--------------------------------------------------------------------------------
-Town Assets:                                                                                
-https://assetstore.unity.com/packages/3d/environments/fantasy/polygon-knights-pack-83694                                                                                                
--------------------------------------------------------------------------------
-Animal Assets:										    
-https://assetstore.unity.com/packages/3d/characters/animals/low-poly-animated-animals-93089 
--------------------------------------------------------------------------------
-Music:											          									
-"Flying Kerfuffle" Kevin MacLeod (incompetech.com)                 
-"Morgana Rides" Kevin MacLeod (incompetech.com)                              
+
+Scroll Icon:  https://pixabay.com/vectors/scroll-parchment-paper-note-bill-35683/
+
+Key Icon: https://pixabay.com/vectors/key-icon-simple-symbol-brass-2674073/
+
+Item Icons:
+https://svgsilh.com/image/3190959.html
+https://svgsilh.com/image/2515648.html
+https://svgsilh.com/image/31942.html
+https://svgsilh.com/image/1200940.html
+
+Skyboxes:
+https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-add-on-136594
+https://assetstore.unity.com/packages/2d/textures-materials/sky/starfield-skybox-92717
+
+Town Assets:
+https://assetstore.unity.com/packages/3d/environments/fantasy/polygon-knights-pack-83694
+
+Animal Assets:
+https://assetstore.unity.com/packages/3d/characters/animals/low-poly-animated-animals-93089
+
+Music:
+"Flying Kerfuffle" Kevin MacLeod (incompetech.com)
+"Morgana Rides" Kevin MacLeod (incompetech.com)
 "Teller of the Tales" Kevin MacLeod (incompetech.com)
--------------------------------------------------------------------------------
-SFX:					                                 						                                 
-Female Hello: AderuMoro (https://www.youtube.com/user/AderuMoro)					
--------------------------------------------------------------------------------
-Tongue Click: Acclivity (https://freesound.org/people/acclivity/sounds/34208/)     
--------------------------------------------------------------------------------
+
+SFX:
+Female Hello: AderuMoro (https://www.youtube.com/user/AderuMoro)
+Tongue Click: Acclivity (https://freesound.org/people/acclivity/sounds/34208/)
 Portal: Sergenious (https://freesound.org/people/Sergenious/sounds/55843/)
