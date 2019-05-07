@@ -60,8 +60,8 @@ public class NormalSceneManager : MonoBehaviour
     {
         if (SceneValueManager.playerEnteredPortal)
         {
-            playerOriginalSpot.SetActive(false);
-            playerPortalSpot.SetActive(true);
+            playerOriginalSpot.transform.position = playerPortalSpot.transform.position;
+            playerOriginalSpot.transform.rotation = playerPortalSpot.transform.rotation;
         }
 
         if (SceneValueManager.keyPickedUp)

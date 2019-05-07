@@ -20954,7 +20954,7 @@ MonoBehaviour:
     BackwardSpeed: 7
     StrafeSpeed: 7
     RunMultiplier: 2
-    RunKey: 304
+    RunKey: 0
     JumpForce: 50
     SlopeCurveModifier:
       serializedVersion: 2
@@ -30811,7 +30811,7 @@ PrefabInstance:
     - target: {fileID: 8266332740546221624, guid: b2ea82b54dee570458d8ec67c6c0cf4f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.0000023548566
+      value: -0.0000069665207
       objectReference: {fileID: 0}
     - target: {fileID: 8266332741621336624, guid: b2ea82b54dee570458d8ec67c6c0cf4f,
         type: 3}
