@@ -2,12 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.UI;
 
 public class InventoryMenu : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject inventoryMenuItemTogglePrefab;
+
+    [Tooltip("Content area that holds inventory objects")]
+    [SerializeField]
+    private Transform inventoryListContentArea;
+
     private static InventoryMenu instance;
     private CanvasGroup canvasGroup;
     private RigidbodyFirstPersonController rigidbodyFirstPersonController;
+    private AudioSource audioSource;
 
     public static InventoryMenu Instance
     {
@@ -22,6 +31,22 @@ public class InventoryMenu : MonoBehaviour
 
     private bool IsVisible => canvasGroup.alpha > 0;
 
+    public void ExitMenuButtonClicked()
+    {
+        HideMenu();
+    }
+
+    /// <summary>
+    /// initiates an inventory menu item toggle prefab and adds it to the menu
+    /// </summary>
+    /// <param name="inventoryObjectToAdd"></param>
+    public void AddItemToMenu(InventoryObject inventoryObjectToAdd)
+    {
+        GameObject clone = Instantiate(inventoryMenuItemTogglePrefab, inventoryListContentArea);
+        InventoryMenuItemToggle toggle = clone.GetComponent<InventoryMenuItemToggle>();
+        toggle.AssociatedInventoryObject = inventoryObjectToAdd;
+    }
+
     private void HideMenu()
     {
         canvasGroup.alpha = 0;
@@ -29,6 +54,7 @@ public class InventoryMenu : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         rigidbodyFirstPersonController.enabled = true;
+        audioSource.Play();
     }
 
     private void ShowMenu()
@@ -38,6 +64,7 @@ public class InventoryMenu : MonoBehaviour
         rigidbodyFirstPersonController.enabled = false;
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
+        audioSource.Play();
     }
 
     private void Update()
@@ -65,9 +92,19 @@ public class InventoryMenu : MonoBehaviour
 
         canvasGroup = GetComponent<CanvasGroup>();
         rigidbodyFirstPersonController = FindObjectOfType<RigidbodyFirstPersonController>();
+        audioSource = GetComponent<AudioSource>();
     }
     private void Start()
     {
         HideMenu();
+        StartCoroutine(WaitForAudioClip());
+    }
+
+    private IEnumerator WaitForAudioClip()
+    {
+        float originalVolume = audioSource.volume;
+        audioSource.volume = 0;
+        yield return new WaitForSeconds(audioSource.clip.length);
+        audioSource.volume = originalVolume;
     }
 }
