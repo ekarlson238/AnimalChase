@@ -1036,7 +1036,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -1122,7 +1122,7 @@ RectTransform:
   m_Father: {fileID: 1537879579}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.56299245}
+  m_AnchorMin: {x: 0, y: 0.73194706}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -1243,7 +1243,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 743484834}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.43700755
+  m_Size: 0.26805297
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1459,67 +1459,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle System
       objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: UVModule.sprites.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: UVModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: UVModule.mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: UVModule.sprites.Array.data[0].sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 0f730760c91942d49b8f97434adf9c8d,
-        type: 3}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: UVModule.uvChannelMask
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: ColorModule.gradient.maxGradient.key0.g
-      value: 0.5471423
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: ColorModule.gradient.maxGradient.key0.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: ColorModule.gradient.maxGradient.key1.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: ColorModule.gradient.maxGradient.key1.b
-      value: 0.7741265
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: ColorModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 626449165928094938, guid: 9eedccd3162e07b4882dee6bed36656c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1589,6 +1528,67 @@ PrefabInstance:
         type: 3}
       propertyPath: m_MotionVectors
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: UVModule.sprites.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: UVModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: UVModule.mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: UVModule.sprites.Array.data[0].sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0f730760c91942d49b8f97434adf9c8d,
+        type: 3}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: UVModule.uvChannelMask
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.g
+      value: 0.5471423
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: ColorModule.gradient.maxGradient.key1.b
+      value: 0.7741265
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: ColorModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9eedccd3162e07b4882dee6bed36656c, type: 3}
@@ -1804,7 +1804,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278255615
   m_fontColor: {r: 1, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1872,7 +1872,7 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 1
+  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
@@ -2202,16 +2202,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle System (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
-        type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 626449165928094938, guid: 9eedccd3162e07b4882dee6bed36656c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2272,6 +2262,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 893e7b2719ae6464b891e86d0df7c7de, type: 2}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 626449165928094940, guid: 9eedccd3162e07b4882dee6bed36656c,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9eedccd3162e07b4882dee6bed36656c, type: 3}
 --- !u!1 &1778674497
@@ -2771,6 +2771,7 @@ GameObject:
   - component: {fileID: 2083900904}
   - component: {fileID: 2083900903}
   - component: {fileID: 2083900902}
+  - component: {fileID: 2083900905}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -2794,8 +2795,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 9, y: 0.00000019426294}
-  m_SizeDelta: {x: -18, y: 1320}
+  m_AnchoredPosition: {x: 0, y: 0.0000021493343}
+  m_SizeDelta: {x: 0, y: 2152}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2083900902
 MonoBehaviour:
@@ -2819,26 +2820,44 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 26
+    m_FontSize: 33
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Design:\nEvan Karlson\n\nProgramming:\nEvan Karlson\n\nScroll Icon:  https://pixabay.com/vectors/scroll-parchment-paper-note-bill-35683/\r\n\r\nKey
-    Icon: https://pixabay.com/vectors/key-icon-simple-symbol-brass-2674073/\r\n\r\nItem
-    Icons:\r\nhttps://svgsilh.com/image/3190959.html\r\nhttps://svgsilh.com/image/2515648.html\r\nhttps://svgsilh.com/image/31942.html\r\nhttps://svgsilh.com/image/1200940.html\r\n\r\nSkyboxes:\r\nhttps://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-add-on-136594\r\nhttps://assetstore.unity.com/packages/2d/textures-materials/sky/starfield-skybox-92717\r\n\r\nTown
-    Assets:\r\nhttps://assetstore.unity.com/packages/3d/environments/fantasy/polygon-knights-pack-83694\r\n\r\nAnimal
-    Assets:\r\nhttps://assetstore.unity.com/packages/3d/characters/animals/low-poly-animated-animals-93089\r\n\r\nMusic:\r\n\"Flying
-    Kerfuffle\" Kevin MacLeod (incompetech.com)\r\n\"Morgana Rides\" Kevin MacLeod
-    (incompetech.com)\r\n\"Teller of the Tales\" Kevin MacLeod (incompetech.com)\r\n\r\nSFX:\r\nFemale
-    Hello: AderuMoro (https://www.youtube.com/user/AderuMoro)\r\nTongue Click: Acclivity
-    (https://freesound.org/people/acclivity/sounds/34208/)\r\nPortal: Sergenious (https://freesound.org/people/Sergenious/sounds/55843/)"
+    m_LineSpacing: 1.19
+  m_Text: "Design: Evan Karlson      -------------------------------------------------------------------------------
+    Programming: Evan Karlson -------------------------------------------------------------------------------
+    Scroll Icon:                                                                                 https://pixabay.com/vectors/scroll-parchment-paper-note-bill-35683/
+    \                                                                                                                     -------------------------------------------------------------------------------
+    Key Icon:                                                                                    https://pixabay.com/vectors/key-icon-simple-symbol-brass-2674073/
+    \                                                                                                                       -------------------------------------------------------------------------------
+    Item Icons:                                                                                  https://svgsilh.com/image/3190959.html
+    \                                                      https://svgsilh.com/image/2515648.html
+    \                                                      https://svgsilh.com/image/31942.html
+    \                                                        https://svgsilh.com/image/1200940.html
+    \                                                                                                                                                  -------------------------------------------------------------------------------
+    Skyboxes:                                                                                    https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-add-on-136594
+    \    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    https://assetstore.unity.com/packages/2d/textures-materials/sky/starfield-skybox-92717
+    \                                                                                                  -------------------------------------------------------------------------------
+    Town Assets:                                                                                 https://assetstore.unity.com/packages/3d/environments/fantasy/polygon-knights-pack-83694
+    \                                                                                                -------------------------------------------------------------------------------
+    Animal Assets:\t\t\t\t\t\t\t\t\t\t     https://assetstore.unity.com/packages/3d/characters/animals/low-poly-animated-animals-93089
+    \ -------------------------------------------------------------------------------
+    Music:\t\t\t\t\t\t\t\t\t\t\t          \t\t\t\t\t\t\t\t\t \"Flying Kerfuffle\"
+    Kevin MacLeod (incompetech.com)                  \"Morgana Rides\" Kevin MacLeod
+    (incompetech.com)                               \"Teller of the Tales\" Kevin
+    MacLeod (incompetech.com) -------------------------------------------------------------------------------
+    SFX:\t\t\t\t\t                                 \t\t\t\t\t\t                                  Female
+    Hello: AderuMoro (https://www.youtube.com/user/AderuMoro)\t\t\t\t\t -------------------------------------------------------------------------------
+    Tongue Click: Acclivity (https://freesound.org/people/acclivity/sounds/34208/)
+    \     -------------------------------------------------------------------------------
+    Portal: Sergenious (https://freesound.org/people/Sergenious/sounds/55843/)"
 --- !u!114 &2083900903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2861,6 +2880,96 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2083900900}
   m_CullTransparentMesh: 0
+--- !u!114 &2083900905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2083900900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 575553740, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2083900902}
+  m_TextComponent: {fileID: 2083900902}
+  m_Placeholder: {fileID: 0}
+  m_ContentType: 0
+  m_InputType: 0
+  m_AsteriskChar: 42
+  m_KeyboardType: 0
+  m_LineType: 2
+  m_HideMobileInput: 0
+  m_CharacterValidation: 0
+  m_CharacterLimit: 0
+  m_OnEndEdit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.InputField+SubmitEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.InputField+OnChangeEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_CustomCaretColor: 0
+  m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
+  m_Text: "Design: Evan Karlson      -------------------------------------------------------------------------------
+    Programming: Evan Karlson -------------------------------------------------------------------------------
+    Scroll Icon:                                                                                 https://pixabay.com/vectors/scroll-parchment-paper-note-bill-35683/
+    \                                                                                                                     -------------------------------------------------------------------------------
+    Key Icon:                                                                                    https://pixabay.com/vectors/key-icon-simple-symbol-brass-2674073/
+    \                                                                                                                       -------------------------------------------------------------------------------
+    Item Icons:                                                                                  https://svgsilh.com/image/3190959.html
+    \                                                      https://svgsilh.com/image/2515648.html
+    \                                                      https://svgsilh.com/image/31942.html
+    \                                                        https://svgsilh.com/image/1200940.html
+    \                                                                                                                                                  -------------------------------------------------------------------------------
+    Skyboxes:                                                                                    https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-add-on-136594
+    \    \t\t\t\t\t\t\t\t\t\t\t\t\t\t    https://assetstore.unity.com/packages/2d/textures-materials/sky/starfield-skybox-92717
+    \                                                                                                  -------------------------------------------------------------------------------
+    Town Assets:                                                                                 https://assetstore.unity.com/packages/3d/environments/fantasy/polygon-knights-pack-83694
+    \                                                                                                -------------------------------------------------------------------------------
+    Animal Assets:\t\t\t\t\t\t\t\t\t\t     https://assetstore.unity.com/packages/3d/characters/animals/low-poly-animated-animals-93089
+    \ -------------------------------------------------------------------------------
+    Music:\t\t\t\t\t\t\t\t\t\t\t          \t\t\t\t\t\t\t\t\t \"Flying Kerfuffle\"
+    Kevin MacLeod (incompetech.com)                  \"Morgana Rides\" Kevin MacLeod
+    (incompetech.com)                               \"Teller of the Tales\" Kevin
+    MacLeod (incompetech.com) -------------------------------------------------------------------------------
+    SFX:\t\t\t\t\t                                 \t\t\t\t\t\t                                  Female
+    Hello: AderuMoro (https://www.youtube.com/user/AderuMoro)\t\t\t\t\t -------------------------------------------------------------------------------
+    Tongue Click: Acclivity (https://freesound.org/people/acclivity/sounds/34208/)
+    \     -------------------------------------------------------------------------------
+    Portal: Sergenious (https://freesound.org/people/Sergenious/sounds/55843/)"
+  m_CaretBlinkRate: 0.85
+  m_CaretWidth: 1
+  m_ReadOnly: 1
 --- !u!1 &2119208543
 GameObject:
   m_ObjectHideFlags: 0

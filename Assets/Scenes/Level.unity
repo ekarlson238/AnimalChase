@@ -10143,6 +10143,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUDCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 153595829679368300, guid: 9e5791aeaacef5d4cac304351841c3ab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 153595829679368296, guid: 9e5791aeaacef5d4cac304351841c3ab,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27063,7 +27068,7 @@ PrefabInstance:
     - target: {fileID: 8266332741154387615, guid: b2ea82b54dee570458d8ec67c6c0cf4f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.00001185274
+      value: 0.000042369997
       objectReference: {fileID: 0}
     - target: {fileID: 8266332741159279169, guid: b2ea82b54dee570458d8ec67c6c0cf4f,
         type: 3}
@@ -27183,7 +27188,7 @@ PrefabInstance:
     - target: {fileID: 8266332740546221624, guid: b2ea82b54dee570458d8ec67c6c0cf4f,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000012620082
+      value: 0.0000026385474
       objectReference: {fileID: 0}
     - target: {fileID: 8266332741621336624, guid: b2ea82b54dee570458d8ec67c6c0cf4f,
         type: 3}
