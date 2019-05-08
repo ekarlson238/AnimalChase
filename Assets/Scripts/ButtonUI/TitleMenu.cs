@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class TitleMenu : MonoBehaviour
 {
+    [Tooltip("The name of the scene the player will be sent to")]
     [SerializeField]
     private string gameSceneName;
 

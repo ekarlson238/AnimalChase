@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class NormalSceneManager : MonoBehaviour
 {
+    [Tooltip("The Starting player game object")]
+    [SerializeField]
+    private GameObject playerOriginalSpot;
+    [Tooltip("The player game object outside the portal")]
+    [SerializeField]
+    private GameObject playerPortalSpot;
+
     [SerializeField]
     private GameObject key;
 
@@ -51,6 +58,12 @@ public class NormalSceneManager : MonoBehaviour
     /// </summary>
     private void SetTheScene()
     {
+        if (SceneValueManager.playerEnteredPortal)
+        {
+            playerOriginalSpot.transform.position = playerPortalSpot.transform.position;
+            playerOriginalSpot.transform.rotation = playerPortalSpot.transform.rotation;
+        }
+
         if (SceneValueManager.keyPickedUp)
         {
             key.SetActive(false);
